@@ -1,0 +1,998 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=4166000,viewActivatedIn=naturalLanguage</attributes>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <internal_name>check_for_the_expiration</internal_name>
+        <label_cache>[{"name":"a6fd6e0d-669c-4df0-9d6e-c9be5840e959.item.expected_credit_date","label":"3 - For Each➛Bonus Entry Record➛Expected Credit Date","reference":"","reference_display":"Expected Credit Date","type":"glide_date","base_type":"glide_date","parent_table_name":"x_405838_credit_0_bonus","column_name":"expected_credit_date"},{"name":"flow_variable.variable","label":"Flow Variables➛variable","reference":"","reference_display":"","type":"glide_date_time","base_type":"glide_date_time","column_name":"","attributes":{"uiType":"reference","uiTypeLabel":"Reference","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"560d4e30-4283-40c2-b25c-f363259e0fd8","sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"7b25f052-00a3-427a-b35b-589ae99883b7.Records","label":"2 - Look Up Records➛Bonus Entry Records","reference":"x_405838_credit_0_bonus","reference_display":"Bonus Entry Records","type":"records","base_type":"records","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"a6fd6e0d-669c-4df0-9d6e-c9be5840e959.item","label":"3 - For Each➛Bonus Entry Record","reference":"x_405838_credit_0_bonus","reference_display":"Bonus Entry Record","type":"reference","base_type":"reference","attributes":{"pills_draggable_inside_block":"true","pills_draggable_outside_block":"false"}}]</label_cache>
+        <master_snapshot>b8b2795b472b7110bf82a368436d4349</master_snapshot>
+        <name>Check for the Expiration</name>
+        <natlang/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <remote_trigger_id>81b2795b472b7110bf82a368436d438a</remote_trigger_id>
+        <run_as>system</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>draft</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-10 17:28:13</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>67c2259747e77110bf82a368436d4316</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name>Check for the Expiration</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Credit/Bank Bonus" source="x_405838_credit_0">8ce0b44b47233110bf82a368436d439a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Credit/Bank Bonus">8ce0b44b47233110bf82a368436d439a</sys_scope>
+        <sys_update_name>sys_hub_flow_67c2259747e77110bf82a368436d4316</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-10 18:38:37</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=67c2259747e77110bf82a368436d4316"/>
+    <sys_variable_value action="delete_multiple" query="document_key=67c2259747e77110bf82a368436d4316"/>
+    <sys_flow_timer_trigger action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <day_of_month>1</day_of_month>
+        <day_of_week/>
+        <name/>
+        <run_period/>
+        <run_start>2024-01-10 18:37:40</run_start>
+        <sys_class_name>sys_flow_timer_trigger</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-10 18:37:40</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>81b2795b472b7110bf82a368436d438a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope display_value="Credit/Bank Bonus">8ce0b44b47233110bf82a368436d439a</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-10 18:37:40</sys_updated_on>
+        <time>1970-01-01 09:00:00</time>
+        <timer_type>11</timer_type>
+    </sys_flow_timer_trigger>
+    <sys_flow_trigger_auto_script action="delete_multiple" query="name=Trigger:81b2795b472b7110bf82a368436d438a^sys_idNOT IN89b2795b472b7110bf82a368436d438a"/>
+    <sys_flow_trigger_auto_script action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <business_calendar/>
+        <condition/>
+        <conditional>false</conditional>
+        <entered_time/>
+        <max_drift/>
+        <name>Trigger:81b2795b472b7110bf82a368436d438a</name>
+        <offset/>
+        <offset_type>0</offset_type>
+        <run_as display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</run_as>
+        <run_as_tz/>
+        <run_dayofmonth>1</run_dayofmonth>
+        <run_dayofweek/>
+        <run_period/>
+        <run_start>2024-01-10 18:37:40</run_start>
+        <run_time>1970-01-01 09:00:00</run_time>
+        <run_type>daily</run_type>
+        <script><![CDATA[sn_flow_trigger.FlowTriggerAPI.fireTimerTrigger('81b2795b472b7110bf82a368436d438a');]]></script>
+        <sys_class_name>sys_flow_trigger_auto_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-10 18:37:40</sys_created_on>
+        <sys_id>89b2795b472b7110bf82a368436d438a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Credit/Bank Bonus">8ce0b44b47233110bf82a368436d439a</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-10 18:37:40</sys_updated_on>
+        <time_zone/>
+        <trigger display_value="">81b2795b472b7110bf82a368436d438a</trigger>
+        <upgrade_safe>true</upgrade_safe>
+    </sys_flow_trigger_auto_script>
+    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=67c2259747e77110bf82a368436d4316"/>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=67c2259747e77110bf82a368436d4316^sys_idNOT IN6214edd747e77110bf82a368436d43fd"/>
+    <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Check for the Expiration">67c2259747e77110bf82a368436d4316</flow>
+        <name>Daily</name>
+        <remote_sys_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-10 17:33:53</sys_created_on>
+        <sys_id>6214edd747e77110bf82a368436d43fd</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-10 18:38:36</sys_updated_on>
+        <trigger_definition display_value="Daily">89142dc0c32222002841b63b12d3ae8a</trigger_definition>
+        <trigger_inputs/>
+        <trigger_outputs/>
+        <trigger_type>daily</trigger_type>
+    </sys_hub_trigger_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=6214edd747e77110bf82a368436d43fd"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>6214edd747e77110bf82a368436d43fd</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-10 17:33:53</sys_created_on>
+        <sys_id>ea14edd747e77110bf82a368436d43fe</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-10 17:33:53</sys_updated_on>
+        <value>1970-01-01 01:00:00</value>
+        <variable display_value="Time">3ad4edc0c32222002841b63b12d3aee5</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_trigger_input_89142dc0c32222002841b63b12d3ae8a^id=6214edd747e77110bf82a368436d43fd"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=67c2259747e77110bf82a368436d4316"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=67c2259747e77110bf82a368436d4316^sys_idNOT INe3c2259747e77110bf82a368436d4318"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>67c2259747e77110bf82a368436d4316</id>
+        <name>Check for the Expiration</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-10 17:28:13</sys_created_on>
+        <sys_id>e3c2259747e77110bf82a368436d4318</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-10 17:28:13</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=e3c2259747e77110bf82a368436d4318"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=67c2259747e77110bf82a368436d4316"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=67c2259747e77110bf82a368436d4316"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=67c2259747e77110bf82a368436d4316"/>
+    <sys_hub_action_instance action="delete_multiple" query="flow=67c2259747e77110bf82a368436d4316^sys_idNOT INb622f91b472b7110bf82a368436d43d7,e214211b47e77110bf82a368436d435a"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Check for the Expiration">67c2259747e77110bf82a368436d4316</flow>
+        <order>5</order>
+        <parent_ui_id>042eba94-3810-4070-ac38-ffb00de6e5f6</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-10 18:35:21</sys_created_on>
+        <sys_id>b622f91b472b7110bf82a368436d43d7</sys_id>
+        <sys_mod_count>14</sys_mod_count>
+        <sys_scope display_value="Credit/Bank Bonus">8ce0b44b47233110bf82a368436d439a</sys_scope>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2024-01-11 09:00:03</sys_updated_on>
+        <ui_id>403c3d33-1992-4fa3-91e2-fd072d198008</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=b622f91b472b7110bf82a368436d43d7"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>b622f91b472b7110bf82a368436d43d7</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-10 18:35:21</sys_created_on>
+        <sys_id>be22f91b472b7110bf82a368436d43d9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-10 18:35:21</sys_updated_on>
+        <value>active=false</value>
+        <variable display_value="Fields">02d01916c31332002841b63b12d3aeee</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>b622f91b472b7110bf82a368436d43d7</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-10 18:35:21</sys_created_on>
+        <sys_id>be22f91b472b7110bf82a368436d43e6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-10 18:35:21</sys_updated_on>
+        <value>x_405838_credit_0_bonus</value>
+        <variable display_value="Table">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=b622f91b472b7110bf82a368436d43d7"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>b622f91b472b7110bf82a368436d43d7</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-10 18:35:21</sys_created_on>
+        <sys_id>3e22f91b472b7110bf82a368436d43d9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-10 18:35:21</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{a6fd6e0d-669c-4df0-9d6e-c9be5840e959.item}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>b622f91b472b7110bf82a368436d43d7</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-10 18:35:21</sys_created_on>
+        <sys_id>b222f91b472b7110bf82a368436d43d9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-10 18:35:21</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>b622f91b472b7110bf82a368436d43d7</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-10 18:35:21</sys_created_on>
+        <sys_id>7a22f91b472b7110bf82a368436d43d9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-10 18:35:21</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=b622f91b472b7110bf82a368436d43d7"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=b622f91b472b7110bf82a368436d43d7"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_type display_value="Look Up Records">43400a1587003300663ca1bb36cb0b4b</action_type>
+        <action_type_parent display_value="Look Up Records">d1c56ec50b30030085c083eb37673a50</action_type_parent>
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Check for the Expiration">67c2259747e77110bf82a368436d4316</flow>
+        <order>2</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-10 17:33:54</sys_created_on>
+        <sys_id>e214211b47e77110bf82a368436d435a</sys_id>
+        <sys_mod_count>18</sys_mod_count>
+        <sys_scope display_value="Credit/Bank Bonus">8ce0b44b47233110bf82a368436d439a</sys_scope>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2024-01-11 09:00:03</sys_updated_on>
+        <ui_id>7b25f052-00a3-427a-b35b-589ae99883b7</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=e214211b47e77110bf82a368436d435a"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>e214211b47e77110bf82a368436d435a</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-10 17:33:54</sys_created_on>
+        <sys_id>3e14211b47e77110bf82a368436d435c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-10 17:33:54</sys_updated_on>
+        <value>x_405838_credit_0_bonus</value>
+        <variable display_value="Table">8f400a1587003300663ca1bb36cb0b4b</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_action_input_43400a1587003300663ca1bb36cb0b4b^id=e214211b47e77110bf82a368436d435a"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=e214211b47e77110bf82a368436d435a"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=e214211b47e77110bf82a368436d435a"/>
+    <sys_hub_sub_flow_instance action="delete_multiple" query="flow=67c2259747e77110bf82a368436d4316"/>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=67c2259747e77110bf82a368436d4316^sys_idNOT IN2344251b47e77110bf82a368436d4312,7222f91b472b7110bf82a368436d43c4,fa14211b47e77110bf82a368436d435d"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">6f44251b47e77110bf82a368436d4311</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Check for the Expiration">67c2259747e77110bf82a368436d4316</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>4</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>a6fd6e0d-669c-4df0-9d6e-c9be5840e959</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-10 17:34:46</sys_created_on>
+        <sys_id>2344251b47e77110bf82a368436d4312</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_scope display_value="Credit/Bank Bonus">8ce0b44b47233110bf82a368436d439a</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-10 18:38:37</sys_updated_on>
+        <ui_id>042eba94-3810-4070-ac38-ffb00de6e5f6</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=2344251b47e77110bf82a368436d4312"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_variable_67c2259747e77110bf82a368436d4316^id=2344251b47e77110bf82a368436d4312"/>
+    <sys_element_mapping action="delete_multiple" query="id=2344251b47e77110bf82a368436d4312"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition</field>
+        <id>2344251b47e77110bf82a368436d4312</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-10 17:34:46</sys_created_on>
+        <sys_id>af44251b47e77110bf82a368436d4314</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-10 18:35:21</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value>{{a6fd6e0d-669c-4df0-9d6e-c9be5840e959.item.expected_credit_date}}&gt;{{flow_variable.variable}}</value>
+    </sys_element_mapping>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=2344251b47e77110bf82a368436d4312"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=2344251b47e77110bf82a368436d4312"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">b622f91b472b7110bf82a368436d43c3</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Check for the Expiration">67c2259747e77110bf82a368436d4316</flow>
+        <flow_variable/>
+        <flow_variables_assigned>variable</flow_variables_assigned>
+        <inputs/>
+        <logic_definition display_value="Set Flow Variables">4f787d1e0f9b0010ecf0cc52ff767ea0</logic_definition>
+        <order>1</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-10 18:35:20</sys_created_on>
+        <sys_id>7222f91b472b7110bf82a368436d43c4</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_scope display_value="Credit/Bank Bonus">8ce0b44b47233110bf82a368436d439a</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-10 18:38:36</sys_updated_on>
+        <ui_id>40f68206-ed49-4eed-b2b9-0ae5ae0fe455</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=7222f91b472b7110bf82a368436d43c4"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_variable_67c2259747e77110bf82a368436d4316^id=7222f91b472b7110bf82a368436d43c4"/>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=7222f91b472b7110bf82a368436d43c4"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=7222f91b472b7110bf82a368436d43c4^sys_idNOT INf222f91b472b7110bf82a368436d43c5"/>
+    <sys_hub_input_scripts action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <input_name>variable</input_name>
+        <instance>7222f91b472b7110bf82a368436d43c4</instance>
+        <referenced_table>sys_hub_flow_logic</referenced_table>
+        <script>{"variable":{"scriptActive":true,"script":"/*\n**Access Flow/Action data using the fd_data object. Script must return a value. \n**Order number is offset by +1 in Error Handling Section.\n**Available options display upon pressing \".\" after fd_data\n**example: var shortDesc \u003d fd_data.trigger.current.short_description;\n**return shortDesc;\n\n\n*/\n\nvar date1 \u003d new GlideDateTime().getDate();\nreturn date1;"}}</script>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-10 18:35:20</sys_created_on>
+        <sys_id>f222f91b472b7110bf82a368436d43c5</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-10 18:38:36</sys_updated_on>
+    </sys_hub_input_scripts>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">b214211b47e77110bf82a368436d435d</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Check for the Expiration">67c2259747e77110bf82a368436d4316</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="For Each">098e1dc5c3e232002841b63b12d3ae33</logic_definition>
+        <order>3</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-10 17:33:54</sys_created_on>
+        <sys_id>fa14211b47e77110bf82a368436d435d</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_scope display_value="Credit/Bank Bonus">8ce0b44b47233110bf82a368436d439a</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-10 18:38:37</sys_updated_on>
+        <ui_id>a6fd6e0d-669c-4df0-9d6e-c9be5840e959</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=fa14211b47e77110bf82a368436d435d"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_variable_67c2259747e77110bf82a368436d4316^id=fa14211b47e77110bf82a368436d435d"/>
+    <sys_element_mapping action="delete_multiple" query="id=fa14211b47e77110bf82a368436d435d"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>items</field>
+        <id>fa14211b47e77110bf82a368436d435d</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-10 17:33:54</sys_created_on>
+        <sys_id>7214211b47e77110bf82a368436d4361</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-10 17:33:54</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_098e1dc5c3e232002841b63b12d3ae33</table>
+        <value>{{7b25f052-00a3-427a-b35b-589ae99883b7.Records}}</value>
+    </sys_element_mapping>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=fa14211b47e77110bf82a368436d435d"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=fa14211b47e77110bf82a368436d435d"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=67c2259747e77110bf82a368436d4316"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=67c2259747e77110bf82a368436d4316^sys_idNOT INb622f91b472b7110bf82a368436d43b7"/>
+    <sys_hub_flow_variable action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=glide_date_time,uiTypeLabel=Date/Time,uiUniqueId=560d4e30-4283-40c2-b25c-f363259e0fd8</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>variable</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">glide_date_time</internal_type>
+        <label>variable</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Check for the Expiration">67c2259747e77110bf82a368436d4316</model>
+        <model_id>67c2259747e77110bf82a368436d4316</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_variable_67c2259747e77110bf82a368436d4316</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_variable</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-10 18:35:20</sys_created_on>
+        <sys_id>b622f91b472b7110bf82a368436d43b7</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Credit/Bank Bonus">8ce0b44b47233110bf82a368436d439a</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-10 18:35:20</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_variable>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_67c2259747e77110bf82a368436d4316"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_67c2259747e77110bf82a368436d4316"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_67c2259747e77110bf82a368436d4316"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_67c2259747e77110bf82a368436d4316"/>
+    <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,viewActivatedIn=naturalLanguage</attributes>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <internal_name>check_for_the_expiration</internal_name>
+        <label_cache>[{"name":"a6fd6e0d-669c-4df0-9d6e-c9be5840e959.item","label":"3 - For Each➛Bonus Entry Record","reference":"x_405838_credit_0_bonus","reference_display":"Bonus Entry","type":"reference","base_type":"reference","attributes":{"pills_draggable_inside_block":"true","pills_draggable_outside_block":"false"}},{"name":"7b25f052-00a3-427a-b35b-589ae99883b7.Records","label":"2 - Look Up Records➛Bonus Entry Records","reference":"x_405838_credit_0_bonus","reference_display":"Bonus Entry","type":"records","base_type":"records","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"flow_variable.variable","label":"Flow Variables➛variable","reference":"","reference_display":"","type":"glide_date_time","base_type":"glide_date_time","column_name":"","attributes":{"uiType":"reference","uiTypeLabel":"Reference","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"560d4e30-4283-40c2-b25c-f363259e0fd8","sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"a6fd6e0d-669c-4df0-9d6e-c9be5840e959.item.expected_credit_date","label":"3 - For Each➛Bonus Entry Record➛Expected Credit Date","reference":"","reference_display":"Expected Credit Date","type":"glide_date","base_type":"glide_date","parent_table_name":"x_405838_credit_0_bonus","column_name":"expected_credit_date"}]</label_cache>
+        <master>true</master>
+        <name>Check for the Expiration</name>
+        <natlang/>
+        <outputs/>
+        <parent_flow display_value="Check for the Expiration">67c2259747e77110bf82a368436d4316</parent_flow>
+        <remote_trigger_id/>
+        <run_as>system</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-10 18:37:40</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>b8b2795b472b7110bf82a368436d4349</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Credit/Bank Bonus">8ce0b44b47233110bf82a368436d439a</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-10 18:37:40</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=b8b2795b472b7110bf82a368436d4349"/>
+    <sys_variable_value action="delete_multiple" query="document_key=b8b2795b472b7110bf82a368436d4349"/>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=b8b2795b472b7110bf82a368436d4349^sys_idNOT INf4b2795b472b7110bf82a368436d436a"/>
+    <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Check for the Expiration">b8b2795b472b7110bf82a368436d4349</flow>
+        <name>Daily</name>
+        <remote_sys_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-10 18:37:40</sys_created_on>
+        <sys_id>f4b2795b472b7110bf82a368436d436a</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-10 18:37:40</sys_updated_on>
+        <trigger_definition display_value="Daily">89142dc0c32222002841b63b12d3ae8a</trigger_definition>
+        <trigger_inputs/>
+        <trigger_outputs/>
+        <trigger_type>daily</trigger_type>
+    </sys_hub_trigger_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=f4b2795b472b7110bf82a368436d436a"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>f4b2795b472b7110bf82a368436d436a</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-10 18:37:40</sys_created_on>
+        <sys_id>70b2795b472b7110bf82a368436d436b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-10 18:37:40</sys_updated_on>
+        <value>1970-01-01 01:00:00</value>
+        <variable display_value="Time">3ad4edc0c32222002841b63b12d3aee5</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_trigger_input_89142dc0c32222002841b63b12d3ae8a^id=f4b2795b472b7110bf82a368436d436a"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=b8b2795b472b7110bf82a368436d4349"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=b8b2795b472b7110bf82a368436d4349^sys_idNOT IN30b2795b472b7110bf82a368436d434a"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>b8b2795b472b7110bf82a368436d4349</id>
+        <name>Check for the Expiration</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-10 18:37:40</sys_created_on>
+        <sys_id>30b2795b472b7110bf82a368436d434a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-10 18:37:40</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=30b2795b472b7110bf82a368436d434a"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=b8b2795b472b7110bf82a368436d4349"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=b8b2795b472b7110bf82a368436d4349"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=b8b2795b472b7110bf82a368436d4349"/>
+    <sys_hub_action_instance action="delete_multiple" query="flow=b8b2795b472b7110bf82a368436d4349^sys_idNOT IN38b2795b472b7110bf82a368436d4362,f4b2795b472b7110bf82a368436d4368"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_type display_value="Look Up Records">43400a1587003300663ca1bb36cb0b4b</action_type>
+        <action_type_parent display_value="Look Up Records">d1c56ec50b30030085c083eb37673a50</action_type_parent>
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Check for the Expiration">b8b2795b472b7110bf82a368436d4349</flow>
+        <order>2</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-10 18:37:40</sys_created_on>
+        <sys_id>38b2795b472b7110bf82a368436d4362</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Credit/Bank Bonus">8ce0b44b47233110bf82a368436d439a</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-10 18:37:40</sys_updated_on>
+        <ui_id>7b25f052-00a3-427a-b35b-589ae99883b7</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=38b2795b472b7110bf82a368436d4362"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>38b2795b472b7110bf82a368436d4362</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-10 18:37:40</sys_created_on>
+        <sys_id>fcb2795b472b7110bf82a368436d4363</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-10 18:37:40</sys_updated_on>
+        <value>x_405838_credit_0_bonus</value>
+        <variable display_value="Table">8f400a1587003300663ca1bb36cb0b4b</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_action_input_43400a1587003300663ca1bb36cb0b4b^id=38b2795b472b7110bf82a368436d4362"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=38b2795b472b7110bf82a368436d4362"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=38b2795b472b7110bf82a368436d4362"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Check for the Expiration">b8b2795b472b7110bf82a368436d4349</flow>
+        <order>5</order>
+        <parent_ui_id>042eba94-3810-4070-ac38-ffb00de6e5f6</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-10 18:37:40</sys_created_on>
+        <sys_id>f4b2795b472b7110bf82a368436d4368</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Credit/Bank Bonus">8ce0b44b47233110bf82a368436d439a</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-10 18:37:40</sys_updated_on>
+        <ui_id>403c3d33-1992-4fa3-91e2-fd072d198008</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=f4b2795b472b7110bf82a368436d4368"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>f4b2795b472b7110bf82a368436d4368</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-10 18:37:40</sys_created_on>
+        <sys_id>30b2795b472b7110bf82a368436d436a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-10 18:37:40</sys_updated_on>
+        <value>active=false</value>
+        <variable display_value="Fields">02d01916c31332002841b63b12d3aeee</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>f4b2795b472b7110bf82a368436d4368</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-10 18:37:40</sys_created_on>
+        <sys_id>f0b2795b472b7110bf82a368436d436a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-10 18:37:40</sys_updated_on>
+        <value>x_405838_credit_0_bonus</value>
+        <variable display_value="Table">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=f4b2795b472b7110bf82a368436d4368"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>f4b2795b472b7110bf82a368436d4368</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-10 18:37:40</sys_created_on>
+        <sys_id>bcb2795b472b7110bf82a368436d4369</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-10 18:37:40</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{a6fd6e0d-669c-4df0-9d6e-c9be5840e959.item}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>f4b2795b472b7110bf82a368436d4368</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-10 18:37:40</sys_created_on>
+        <sys_id>38b2795b472b7110bf82a368436d4369</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-10 18:37:40</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>f4b2795b472b7110bf82a368436d4368</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-10 18:37:40</sys_created_on>
+        <sys_id>f8b2795b472b7110bf82a368436d4369</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-10 18:37:40</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=f4b2795b472b7110bf82a368436d4368"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=f4b2795b472b7110bf82a368436d4368"/>
+    <sys_hub_sub_flow_instance action="delete_multiple" query="flow=b8b2795b472b7110bf82a368436d4349"/>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=b8b2795b472b7110bf82a368436d4349^sys_idNOT IN38b2795b472b7110bf82a368436d4359,bcb2795b472b7110bf82a368436d4353,f8b2795b472b7110bf82a368436d4356"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">6f44251b47e77110bf82a368436d4311</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Check for the Expiration">b8b2795b472b7110bf82a368436d4349</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>4</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>a6fd6e0d-669c-4df0-9d6e-c9be5840e959</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-10 18:37:40</sys_created_on>
+        <sys_id>38b2795b472b7110bf82a368436d4359</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-10 18:37:40</sys_updated_on>
+        <ui_id>042eba94-3810-4070-ac38-ffb00de6e5f6</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=38b2795b472b7110bf82a368436d4359"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_variable_b8b2795b472b7110bf82a368436d4349^id=38b2795b472b7110bf82a368436d4359"/>
+    <sys_element_mapping action="delete_multiple" query="id=38b2795b472b7110bf82a368436d4359"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>condition</field>
+        <id>38b2795b472b7110bf82a368436d4359</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-10 18:37:40</sys_created_on>
+        <sys_id>30b2795b472b7110bf82a368436d435c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-10 18:37:40</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_af4e1945c3e232002841b63b12d3ae3e</table>
+        <value>{{a6fd6e0d-669c-4df0-9d6e-c9be5840e959.item.expected_credit_date}}&gt;{{flow_variable.variable}}</value>
+    </sys_element_mapping>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=38b2795b472b7110bf82a368436d4359"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=38b2795b472b7110bf82a368436d4359"/>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">b622f91b472b7110bf82a368436d43c3</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Check for the Expiration">b8b2795b472b7110bf82a368436d4349</flow>
+        <flow_variable/>
+        <flow_variables_assigned>variable</flow_variables_assigned>
+        <inputs/>
+        <logic_definition display_value="Set Flow Variables">4f787d1e0f9b0010ecf0cc52ff767ea0</logic_definition>
+        <order>1</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-10 18:37:40</sys_created_on>
+        <sys_id>bcb2795b472b7110bf82a368436d4353</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-10 18:37:40</sys_updated_on>
+        <ui_id>40f68206-ed49-4eed-b2b9-0ae5ae0fe455</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=bcb2795b472b7110bf82a368436d4353"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_variable_b8b2795b472b7110bf82a368436d4349^id=bcb2795b472b7110bf82a368436d4353"/>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=bcb2795b472b7110bf82a368436d4353"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=bcb2795b472b7110bf82a368436d4353^sys_idNOT INbcb2795b472b7110bf82a368436d4354"/>
+    <sys_hub_input_scripts action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <input_name>variable</input_name>
+        <instance>bcb2795b472b7110bf82a368436d4353</instance>
+        <referenced_table>sys_hub_flow_logic</referenced_table>
+        <script>{"variable":{"scriptActive":true,"script":"/*\n**Access Flow/Action data using the fd_data object. Script must return a value. \n**Order number is offset by +1 in Error Handling Section.\n**Available options display upon pressing \".\" after fd_data\n**example: var shortDesc \u003d fd_data.trigger.current.short_description;\n**return shortDesc;\n\n\n*/\n\nvar date1 \u003d new GlideDateTime.getDate();\nreturn date1;"}}</script>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-10 18:37:40</sys_created_on>
+        <sys_id>bcb2795b472b7110bf82a368436d4354</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-10 18:37:40</sys_updated_on>
+    </sys_hub_input_scripts>
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">b214211b47e77110bf82a368436d435d</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <extended_inputs/>
+        <flow display_value="Check for the Expiration">b8b2795b472b7110bf82a368436d4349</flow>
+        <flow_variable/>
+        <flow_variables_assigned/>
+        <inputs/>
+        <inputs/>
+        <logic_definition display_value="For Each">098e1dc5c3e232002841b63b12d3ae33</logic_definition>
+        <order>3</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-10 18:37:40</sys_created_on>
+        <sys_id>f8b2795b472b7110bf82a368436d4356</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-10 18:37:40</sys_updated_on>
+        <ui_id>a6fd6e0d-669c-4df0-9d6e-c9be5840e959</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=f8b2795b472b7110bf82a368436d4356"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_flow_variable_b8b2795b472b7110bf82a368436d4349^id=f8b2795b472b7110bf82a368436d4356"/>
+    <sys_element_mapping action="delete_multiple" query="id=f8b2795b472b7110bf82a368436d4356"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>items</field>
+        <id>f8b2795b472b7110bf82a368436d4356</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-10 18:37:40</sys_created_on>
+        <sys_id>70b2795b472b7110bf82a368436d4359</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-10 18:37:40</sys_updated_on>
+        <table>var__m_sys_hub_flow_logic_input_098e1dc5c3e232002841b63b12d3ae33</table>
+        <value>{{7b25f052-00a3-427a-b35b-589ae99883b7.Records}}</value>
+    </sys_element_mapping>
+    <sys_hub_flow_logic_ext_input action="delete_multiple" query="model=f8b2795b472b7110bf82a368436d4356"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=f8b2795b472b7110bf82a368436d4356"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=b8b2795b472b7110bf82a368436d4349"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=b8b2795b472b7110bf82a368436d4349^sys_idNOT IN74b2795b472b7110bf82a368436d434f"/>
+    <sys_hub_flow_variable action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=glide_date_time,uiTypeLabel=Date/Time,uiUniqueId=560d4e30-4283-40c2-b25c-f363259e0fd8</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>variable</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">glide_date_time</internal_type>
+        <label>variable</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Check for the Expiration">b8b2795b472b7110bf82a368436d4349</model>
+        <model_id>b8b2795b472b7110bf82a368436d4349</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_variable_b8b2795b472b7110bf82a368436d4349</name>
+        <next_element/>
+        <order>0</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_variable</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-10 18:37:40</sys_created_on>
+        <sys_id>74b2795b472b7110bf82a368436d434f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Credit/Bank Bonus">8ce0b44b47233110bf82a368436d439a</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-10 18:37:40</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_variable>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_b8b2795b472b7110bf82a368436d4349"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_b8b2795b472b7110bf82a368436d4349"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_b8b2795b472b7110bf82a368436d4349"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_b8b2795b472b7110bf82a368436d4349"/>
+    <sys_hub_flow action="UPDATE">
+        <sys_id>67c2259747e77110bf82a368436d4316</sys_id>
+        <latest_snapshot>b8b2795b472b7110bf82a368436d4349</latest_snapshot>
+        <compiler_build>glide-vancouver-07-06-2023__patch2-hotfix1-10-04-2023_10-06-2023_1235.zip</compiler_build>
+    </sys_hub_flow>
+    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=67c2259747e77110bf82a368436d4316^sys_idNOT IN45b2795b472b7110bf82a368436d438d"/>
+    <sys_flow_trigger_plan action="INSERT_OR_UPDATE">
+        <binding_strategy>com.snc.process_flow.engine.binding.RunAlways</binding_strategy>
+        <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_trigger_plan","id":"45b2795b472b7110bf82a368436d438d","name":"plan","plan_signature":null}}</plan>
+        <plan_id>67c2259747e77110bf82a368436d4316</plan_id>
+        <snapshot>9918342747e7b110bf82a368436d4392</snapshot>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-10 18:37:40</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>45b2795b472b7110bf82a368436d438d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-10 18:37:40</sys_updated_on>
+        <trigger display_value="">81b2795b472b7110bf82a368436d438a</trigger>
+    </sys_flow_trigger_plan>
+    <sys_flow_subflow_plan action="delete_multiple" query="plan_id=67c2259747e77110bf82a368436d4316"/>
+</record_update>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_canvas">
+    <par_dashboard_canvas action="INSERT_OR_UPDATE">
+        <dashboard display_value="Credit/Bank Bonus">abf4b4cf3423311054e24c524ce25c13</dashboard>
+        <dashboard_tab/>
+        <layout>[]</layout>
+        <sys_class_name>par_dashboard_canvas</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-09 19:29:36</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>27f4b4cfa62331100c0a795cc70a6d13</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="Credit/Bank Bonus" source="x_405838_credit_0">8ce0b44b47233110bf82a368436d439a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Credit/Bank Bonus">8ce0b44b47233110bf82a368436d439a</sys_scope>
+        <sys_update_name>par_dashboard_canvas_27f4b4cfa62331100c0a795cc70a6d13</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-09 19:29:36</sys_updated_on>
+    </par_dashboard_canvas>
+</record_update>

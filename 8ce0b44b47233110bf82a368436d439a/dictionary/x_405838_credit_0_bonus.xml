@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" db_object_id="7811f84b47233110bf82a368436d4305" label="Bonus Entry" max_length="40" name="x_405838_credit_0_bonus" type="collection">
+        <element label="Active" max_length="40" name="active" type="boolean"/>
+        <element label="Airline/Hotel" max_length="100" name="airline_hotel" type="string"/>
+        <element label="Amount Spending/Depost" max_length="40" name="amount_spending_depost" type="string"/>
+        <element label="Annual Fee" max_length="20" name="annual_fee" type="currency"/>
+        <element label="Approval Date" max_length="40" name="approval_date" type="glide_date"/>
+        <element label="APY" max_length="20" name="apy" type="decimal"/>
+        <element label="Bank Name" max_length="40" name="bank_name" type="string"/>
+        <element label="Bonus Amount" max_length="40" name="bonus_amount" type="currency"/>
+        <element label="Early Termination Penalty Details" max_length="40" name="early_termination_penalty_details" type="string"/>
+        <element label="Expected Credit Date" max_length="255" name="expected_credit_date" type="glide_date"/>
+        <element label="Miles/Points" max_length="40" name="miles_points" type="string"/>
+        <element label="Monthly Maintenance Fee" max_length="40" name="monthly_maintenance_fee" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Target Period" max_length="40" name="target_period" type="string"/>
+        <element choice="1" label="Type" max_length="40" name="type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Credit Card - Personal" sequence="0" value="credit_card_personal"/>
+                <element inactive_on_update="false" label="Credit Card - Business" sequence="1" value="credit_card_business"/>
+                <element inactive_on_update="false" label="Checking - Personal" sequence="2" value="checking_personal"/>
+                <element inactive_on_update="false" label="Checking - Business" sequence="3" value="checking_business"/>
+                <element inactive_on_update="false" label="Savings" sequence="4" value="savings"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Type of Bonus" max_length="40" name="type_of_bonus" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Cash" value="c"/>
+                <element inactive_on_update="false" label="Miles" value="m"/>
+                <element inactive_on_update="false" label="Points" value="p"/>
+            </choice>
+        </element>
+    </element>
+</database>

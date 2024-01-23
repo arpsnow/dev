@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_widget">
+    <par_dashboard_widget action="INSERT_OR_UPDATE">
+        <canvas display_value="">6ff4b4cfc5233110cf51f1185da7f313</canvas>
+        <component display_value="Heading">1f6e0643eca7a637e36bd7833549ec9e</component>
+        <component_props>{"variant":"header-primary","label":"Happening Now","wontWrap":false,"hasNoMargin":false,"level":"1","filterConfigurations":[],"noDebounce":""}</component_props>
+        <h>3</h>
+        <name/>
+        <stored_component/>
+        <sys_class_name>par_dashboard_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-01-09 19:29:36</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>2bf4b4cf662331103c9e1f70d3a65412</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="Credit/Bank Bonus" source="x_405838_credit_0">8ce0b44b47233110bf82a368436d439a</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Credit/Bank Bonus">8ce0b44b47233110bf82a368436d439a</sys_scope>
+        <sys_update_name>par_dashboard_widget_2bf4b4cf662331103c9e1f70d3a65412</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-01-09 19:29:36</sys_updated_on>
+        <visualization/>
+        <w>47</w>
+        <widget_props/>
+        <x>0</x>
+        <y>0</y>
+    </par_dashboard_widget>
+</record_update>
