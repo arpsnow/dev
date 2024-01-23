@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<unload unload_date="2024-01-23 14:28:33">
+<x_405838_credit_0_bonus action="INSERT_OR_UPDATE">
+<active>true</active>
+<airline_hotel>Hilton</airline_hotel>
+<amount_spending_depost>3000</amount_spending_depost>
+<approval_date>2023-10-20</approval_date>
+<apy/>
+<bank_name>AMEX Surpass - Aneena</bank_name>
+<bonus_amount>0</bonus_amount>
+<early_termination_penalty_details/>
+<expected_credit_date>2024-04-24</expected_credit_date>
+<miles_points>170000</miles_points>
+<monthly_maintenance_fee/>
+<number>BON0001009</number>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2024-01-09 19:39:58</sys_created_on>
+<sys_id>03573c8347633110bf82a368436d4312</sys_id>
+<sys_mod_count>6</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2024-01-10 18:39:09</sys_updated_on>
+<target_period>6 months</target_period>
+<type>credit_card_personal</type>
+<type_of_bonus>m</type_of_bonus>
+<u_needed>false</u_needed>
+</x_405838_credit_0_bonus>
+<x_405838_credit_0_bonus action="INSERT_OR_UPDATE">
+<active>true</active>
+<airline_hotel>Alaska</airline_hotel>
+<amount_spending_depost>4000</amount_spending_depost>
+<approval_date>2023-12-13</approval_date>
+<apy/>
+<bank_name>BOFA- Alaska - Aneena</bank_name>
+<bonus_amount>0</bonus_amount>
+<early_termination_penalty_details/>
+<expected_credit_date>2024-03-10</expected_credit_date>
+<miles_points>75000</miles_points>
+<monthly_maintenance_fee/>
+<number>BON0001010</number>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2024-01-09 19:51:58</sys_created_on>
+<sys_id>a9e9fcc347633110bf82a368436d43eb</sys_id>
+<sys_mod_count>5</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2024-01-10 18:39:09</sys_updated_on>
+<target_period>3 months</target_period>
+<type>credit_card_business</type>
+<type_of_bonus>m</type_of_bonus>
+<u_needed>false</u_needed>
+</x_405838_credit_0_bonus>
+<x_405838_credit_0_bonus action="INSERT_OR_UPDATE">
+<active>true</active>
+<airline_hotel>Royal Carribean</airline_hotel>
+<amount_spending_depost>1000</amount_spending_depost>
+<annual_fee>0</annual_fee>
+<approval_date>2023-12-26</approval_date>
+<apy/>
+<bank_name>BOFA- Royal Carribean - Aneena</bank_name>
+<bonus_amount>300</bonus_amount>
+<early_termination_penalty_details/>
+<expected_credit_date>2024-03-24</expected_credit_date>
+<miles_points/>
+<monthly_maintenance_fee/>
+<number>BON0001011</number>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2024-01-09 19:54:09</sys_created_on>
+<sys_id>647afc8747633110bf82a368436d4311</sys_id>
+<sys_mod_count>8</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2024-01-10 18:39:09</sys_updated_on>
+<target_period>3 months</target_period>
+<type>credit_card_personal</type>
+<type_of_bonus>m</type_of_bonus>
+<u_needed>false</u_needed>
+</x_405838_credit_0_bonus>
+<x_405838_credit_0_bonus action="INSERT_OR_UPDATE">
+<active>false</active>
+<airline_hotel/>
+<amount_spending_depost>1500</amount_spending_depost>
+<annual_fee>0</annual_fee>
+<approval_date>2023-10-12</approval_date>
+<apy/>
+<bank_name>Wells Fargo - Arun</bank_name>
+<bonus_amount>325</bonus_amount>
+<early_termination_penalty_details/>
+<expected_credit_date>2024-01-12</expected_credit_date>
+<miles_points/>
+<monthly_maintenance_fee>&lt;500</monthly_maintenance_fee>
+<number>BON0001013</number>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2024-01-09 20:21:03</sys_created_on>
+<sys_id>6580098f47633110bf82a368436d4309</sys_id>
+<sys_mod_count>5</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2024-01-23 13:35:35</sys_updated_on>
+<target_period>90 days</target_period>
+<type>checking_personal</type>
+<type_of_bonus>c</type_of_bonus>
+<u_needed>true</u_needed>
+</x_405838_credit_0_bonus>
+<x_405838_credit_0_bonus action="INSERT_OR_UPDATE">
+<active>true</active>
+<airline_hotel/>
+<amount_spending_depost>20000</amount_spending_depost>
+<annual_fee>0</annual_fee>
+<approval_date/>
+<apy>4.3</apy>
+<bank_name>Capital One - Aneena</bank_name>
+<bonus_amount>300</bonus_amount>
+<early_termination_penalty_details/>
+<expected_credit_date/>
+<miles_points/>
+<monthly_maintenance_fee/>
+<number>BON0001014</number>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2024-01-09 20:22:37</sys_created_on>
+<sys_id>75f009c747633110bf82a368436d43f0</sys_id>
+<sys_mod_count>3</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2024-01-23 13:35:40</sys_updated_on>
+<target_period>90 days</target_period>
+<type>savings</type>
+<type_of_bonus>c</type_of_bonus>
+<u_needed>true</u_needed>
+</x_405838_credit_0_bonus>
+<x_405838_credit_0_bonus action="INSERT_OR_UPDATE">
+<active>true</active>
+<airline_hotel/>
+<amount_spending_depost/>
+<annual_fee>0</annual_fee>
+<approval_date>2024-01-18</approval_date>
+<apy/>
+<bank_name>SOFI - Aneena</bank_name>
+<bonus_amount>300</bonus_amount>
+<early_termination_penalty_details/>
+<expected_credit_date/>
+<miles_points/>
+<monthly_maintenance_fee/>
+<number>BON0001016</number>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2024-01-18 18:12:03</sys_created_on>
+<sys_id>3359faf547333110bf82a368436d43fe</sys_id>
+<sys_mod_count>1</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2024-01-23 13:35:47</sys_updated_on>
+<target_period>30</target_period>
+<type>checking_personal</type>
+<type_of_bonus>c</type_of_bonus>
+<u_needed>true</u_needed>
+</x_405838_credit_0_bonus>
+<x_405838_credit_0_bonus action="INSERT_OR_UPDATE">
+<active>true</active>
+<airline_hotel/>
+<amount_spending_depost/>
+<annual_fee>0</annual_fee>
+<approval_date>2024-01-18</approval_date>
+<apy/>
+<bank_name>Swagbucks - SOFI - Aneena</bank_name>
+<bonus_amount>200</bonus_amount>
+<early_termination_penalty_details/>
+<expected_credit_date/>
+<miles_points/>
+<monthly_maintenance_fee/>
+<number>BON0001017</number>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2024-01-18 18:12:47</sys_created_on>
+<sys_id>2e9976b547333110bf82a368436d4355</sys_id>
+<sys_mod_count>1</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2024-01-18 18:13:33</sys_updated_on>
+<target_period>15</target_period>
+<type/>
+<type_of_bonus/>
+<u_needed>false</u_needed>
+</x_405838_credit_0_bonus>
+<x_405838_credit_0_bonus action="INSERT_OR_UPDATE">
+<active>true</active>
+<airline_hotel/>
+<amount_spending_depost/>
+<annual_fee>0</annual_fee>
+<approval_date>2023-12-31</approval_date>
+<apy/>
+<bank_name>Swagbucks - Chime - Aneena</bank_name>
+<bonus_amount>245</bonus_amount>
+<early_termination_penalty_details/>
+<expected_credit_date/>
+<miles_points/>
+<monthly_maintenance_fee/>
+<number>BON0001018</number>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2024-01-18 18:13:22</sys_created_on>
+<sys_id>79c9faf547333110bf82a368436d43db</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2024-01-18 18:13:22</sys_updated_on>
+<target_period/>
+<type/>
+<type_of_bonus/>
+<u_needed>false</u_needed>
+</x_405838_credit_0_bonus>
+</unload>
