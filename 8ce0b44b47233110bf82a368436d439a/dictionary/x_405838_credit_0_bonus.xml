@@ -10,7 +10,7 @@
         <element label="Bonus Amount" max_length="40" name="bonus_amount" type="currency"/>
         <element label="Early Termination Penalty Details" max_length="40" name="early_termination_penalty_details" type="string"/>
         <element label="Expected Credit Date" max_length="255" name="expected_credit_date" type="glide_date"/>
-        <element label="Miles/Points" max_length="40" name="miles_points" type="string"/>
+        <element label="Miles/Points" max_length="110" name="miles_points" type="string"/>
         <element label="Monthly Maintenance Fee" max_length="40" name="monthly_maintenance_fee" type="string"/>
         <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
         <element label="Target Period" max_length="40" name="target_period" type="string"/>

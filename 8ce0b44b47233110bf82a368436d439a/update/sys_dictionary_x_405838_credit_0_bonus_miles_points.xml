@@ -34,7 +34,7 @@
         <function_field>false</function_field>
         <internal_type display_value="String">string</internal_type>
         <mandatory>false</mandatory>
-        <max_length>40</max_length>
+        <max_length>110</max_length>
         <name>x_405838_credit_0_bonus</name>
         <next_element/>
         <primary>false</primary>
@@ -58,7 +58,7 @@
         <sys_scope display_value="Credit/Bank Bonus">8ce0b44b47233110bf82a368436d439a</sys_scope>
         <sys_update_name>sys_dictionary_x_405838_credit_0_bonus_miles_points</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-01-09 19:48:36</sys_updated_on>
+        <sys_updated_on>2024-01-23 14:20:28</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
